@@ -19,7 +19,7 @@ The Enhanced TodoList  is an application that allows users to create, edit, and 
 
 The application utilizes the Appwrite platform for data storage. Make sure you have configured the appropriate parameters in the configuration file.
 
-json
+```json
 {
   "appwrite": {
     "endpoint": "https://api.appwrite.io/v1",
@@ -28,6 +28,7 @@ json
     "apiKey": "YOUR_API_KEY"
   }
 }
+```
 
 
 ## 🔗 Link to page preview
