@@ -1,26 +1,25 @@
-# 📝 Enchanted TodoList
+# 📝 Enhanced TodoList
 
-Projekt TodoLista Ulepszona to aplikacja umożliwiająca tworzenie, edycję i usuwanie zadań do wykonania (todo). Dodatkową funkcjonalnością jest możliwość przeciągania zadań pomiędzy kolumnami oraz dodawania obrazków do poszczególnych zadań. Dane są przechowywane na platformie [Appwrite](https://appwrite.io/).
+The Enhanced TodoList  is an application that allows users to create, edit, and delete tasks (todos). Additional features include the ability to drag tasks between columns and add images to individual tasks. Data is stored on the [Appwrite](https://appwrite.io/) platform.
 
-## 🚀 Technologie
+## 🚀 Technologies
 
-- [Next.js](https://nextjs.org/) - Framework React do budowania interfejsów stron internetowych
-- [TypeScript](https://www.typescriptlang.org/) - Język programowania
-- [Zustand](https://zustand.surge.sh/) - Biblioteka do zarządzania globalnym stanem aplikacji
+- [Next.js](https://nextjs.org/) - React framework for building web interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Programming language
+- [Zustand](https://zustand.surge.sh/) - Library for managing global application state
 
-## 🎯 Funkcje
+## 🎯 Features
 
-- Dodawanie nowych zadań do listy
-- Przeciąganie zadań pomiędzy kolumnami
-- Dodawanie obrazków do zadań
-- Usuwanie zadań
-- Wyszukiwanie zadań i ich filtrowanie
+- Adding new tasks to the list
+- Dragging tasks between columns
+- Adding images to tasks
+- Deleting tasks
 
 ## 🌐 Appwrite Integration
 
-Aplikacja korzysta z platformy Appwrite do przechowywania danych. Upewnij się, że masz skonfigurowane odpowiednie parametry w pliku konfiguracyjnym.
+The application utilizes the Appwrite platform for data storage. Make sure you have configured the appropriate parameters in the configuration file.
 
-```json
+json
 {
   "appwrite": {
     "endpoint": "https://api.appwrite.io/v1",
@@ -29,7 +28,7 @@ Aplikacja korzysta z platformy Appwrite do przechowywania danych. Upewnij się, 
     "apiKey": "YOUR_API_KEY"
   }
 }
-```
+
 
 ## 🔗 Link to page preview
 
